@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.title {
+  padding: 10px;
+}
+
+.poc {
+  color: #ff9900;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}

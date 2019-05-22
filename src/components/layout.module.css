@@ -1,0 +1,9 @@
+.container {
+}
+
+.col {
+  border: 1px solid #a9a9a9;
+  border-radius: 3px;
+  background-color: black;
+  padding: 3%;
+}

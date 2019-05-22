@@ -1,0 +1,13 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  font-size: 2em;
+  color: #32cd32;
+}
+
+.indicator {
+  color: white;
+}
