@@ -6,7 +6,7 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1 className="title">MI Report Dashboard</h1>
+      <h1 className="title">MI Reporting Dashboard</h1>
       <div className="poc">Proof of Concept</div>
       <Layout />
       {/* <a
