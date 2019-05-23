@@ -9,13 +9,6 @@ function App() {
       <h1 className="title">MI Reporting Dashboard</h1>
       <div className="poc">Proof of Concept</div>
       <Layout />
-      {/* <a
-        href="https://fusioncharts.github.io/react-fusioncharts-component/"
-        target="_blank"
-        className="footer"
-      >
-        React FusionCharts
-      </a> */}
     </div>
   );
 }

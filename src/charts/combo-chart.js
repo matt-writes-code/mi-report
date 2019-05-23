@@ -1,14 +1,15 @@
 import React from "react";
 import Chart from "react-google-charts";
+import Spinner from '../components/spinner.js';
 
 const ComboChart = () => {
   return (
     <div>
       <Chart
         width={"100%"}
-        height={"300px"}
+        height={"350px"}
         chartType="ComboChart"
-        loader={<div>Loading Chart</div>}
+        loader={<div><Spinner /></div>}
         data={[
           ["Month", "CS", "TS", "CR", "CRA", "EA", "Threshold"],
           ["January", 500, 938, 522, 998, 450, 614.6],

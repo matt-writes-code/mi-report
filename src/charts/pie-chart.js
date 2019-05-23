@@ -1,14 +1,15 @@
 import React from "react";
 import Chart from "react-google-charts";
+import Spinner from '../components/spinner.js';
 
 const PieChart = () => {
   return (
     <div>
       <Chart
         width={"100%"}
-        height={"300px"}
+        height={"350px"}
         chartType="PieChart"
-        loader={<div>Loading Chart</div>}
+        loader={<div><Spinner /></div>}
         data={[
           ["Task", "Hours per Day"],
           ["Alert closures", 11],
@@ -20,10 +21,11 @@ const PieChart = () => {
         options={{
           title: "Daily Activities",
           // Just add this option
-          pieHole: 0.4,
+          pieHole: 0.6,
           backgroundColor: "black",
           titleTextStyle: { color: "white" },
-          legendTextStyle: { color: "white" }
+          legendTextStyle: { color: "white" },
+          legend: { position: "top", maxLines: "5" }
         }}
         rootProps={{ "data-testid": "3" }}
       />
