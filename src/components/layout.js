@@ -24,7 +24,7 @@ export default class Layout extends React.Component {
               <Indicator number="14" indicator="Analysts" />
             </Col>
             <Col xs="6" lg="4" className={style.col}>
-              <Indicator number="5" indicator="Escalations" />
+              <Indicator number="6" indicator="Escalations" />
             </Col>
             <Col xs="6" lg="4" className={style.col}>
               <Indicator number="0" indicator="Backlog" />
