@@ -33,6 +33,7 @@ export default class ComboChart extends React.Component {
 
   render() {
     const { data } = this.state;
+    if (!data) return <Spinner />;
 
     return (
       <div>
